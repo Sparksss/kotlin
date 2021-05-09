@@ -1,0 +1,14 @@
+server:
+  port: 8080
+logging:
+  level:
+    org.springframework.web: debug
+spring:
+  profiles:
+    active: dev
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://localhost:5432/test
+    user: postgres
+    password: secret
+    locations: classpath:/db/migration

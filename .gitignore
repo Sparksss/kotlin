@@ -38,4 +38,4 @@ out/
 .vscode/
 
 ### LOGS ###
-log/*s
+log/*

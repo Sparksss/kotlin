@@ -4,6 +4,8 @@ logging:
   level:
     org.springframework.web: debug
 spring:
+  main:
+    banner-mode: off
   profiles:
     active: dev
   flyway:
